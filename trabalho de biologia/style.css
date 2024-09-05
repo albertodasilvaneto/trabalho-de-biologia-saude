@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #64616d;
+    background-color: #089cff;
     color: white;
     padding: 20px;
     text-align: center;
@@ -33,7 +33,7 @@ nav ul li a {
     font-weight: bold;
 }
 nav ul li a:hover{
-    color: #c50000;
+    color: #000000;
 }
 
 section {
@@ -69,16 +69,16 @@ button {
 }
 
 button:hover {
-    background-color: #64616d;
+    background-color: #089cff;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #64616d;
+    background-color: #089cff;
     color: white;
     margin-top: 20px;
 }
 .imgs{
-    width: 100px;
+    width: 150px;
 }
