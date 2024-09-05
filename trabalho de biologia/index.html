@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectar Voluntários de Saúde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conectar Voluntários de Saúde com Comunidades</h1>
+        <img class="imgs" src="logo-removebg-preview.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#agendar">Agendar Visita</a></li>
+                <li><a href="#voluntarios">Voluntários</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>Nosso aplicativo conecta voluntários de saúde com comunidades que precisam de serviços essenciais como medição de pressão arterial, orientação sobre doenças e apoio psicológico.</p>
+    </section>
+
+    <section id="agendar">
+        <h2>Agendar Visita</h2>
+        <form id="agendarVisita">
+            <label for="nomeComunidade">Nome da Comunidade:</label>
+            <input type="text" id="nomeComunidade" required>
+
+            <label for="tipoServico">Serviço Necessário:</label>
+            <select id="tipoServico" required>
+                <option value="medicaoPressao">Medição de Pressão Arterial</option>
+                <option value="orientacaoDoencas">Orientação sobre Doenças</option>
+                <option value="apoioPsicologico">Apoio Psicológico</option>
+            </select>
+
+            <label for="dataVisita">Data da Visita:</label>
+            <input type="date" id="dataVisita" required>
+
+            <button type="submit">Agendar</button>
+        </form>
+
+        <div id="agendamentoConfirmado"></div>
+    </section>
+
+    <section id="voluntarios">
+        <h2>Voluntários Disponíveis</h2>
+        <ul id="listaVoluntarios">
+            <!-- Lista de voluntários será preenchida via JavaScript -->
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco pelo e-mail: <a href="alberto.silva.neto@escola.pr.gov.br">melhorsite@davida.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; Colégio Laranjeiras do Sul, 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
